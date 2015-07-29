@@ -1,0 +1,27 @@
+### this is for human reference genome (b37).
+java_path=/usr/bin
+java7_path=/home/D131748/apps/JAVA/jre1.7.0_60/bin/
+
+bwa_path=/home/D131748/apps/Alignment/bwa/bwa-0.5.9
+picard_path=/home/D131748/apps/ETC/Picard/picard-tools-1.92
+samtools_path=/home/D131748/apps/ETC/samtools/
+gatk_path=/home/D131748/apps/ETC/GATK/GenomeAnalysisTK-1.6-5-g557da77
+mutect_path=/home/D131748/apps/Cancer/Mutect/Mutect-1.1.7
+
+## path for input files
+ref=/home/D131748/Reference/Human/b37/human_g1k_v37.fasta
+known1=/home/D131748/Reference/GATK_bundle/2.5/b37/Mills_and_1000G_gold_standard.indels.b37.vcf
+known2=/home/D131748/Reference/GATK_bundle/2.5/b37/1000G_phase1.indels.b37.vcf
+dbsnp=/home/D131748/Reference/GATK_bundle/2.5/b37/dbsnp_137.b37.vcf
+dbsnp_common=/home/D131748/Reference/dbsnp/dbsnp_141_common_b37.snv.vcf
+cosmic=/home/D131748/Reference/GATK_bundle/2.5/b37/cosmic_v54_120711_b37.vcf
+PON=/home/D131748/Reference/PON/OPv2_mutect_PON_20150109.vcf
+
+
+## intervals
+known_interval=/home/D131748/Reference/GATK_bundle/2.5/b37/known_indel.intervals
+target_interval=/home/D131748/Reference/Target_intervals/OncoPanel_AMC_cellemics/OncoPanel_AMC_bait_150410.interval_list
+depth_interval=/home/D131748/Reference/Target_intervals/OncoPanel_AMC_cellemics/150410_Celemics_panel_full_no_overaps.interval_list
+exon_interval=/home/D131748/Reference/Target_intervals/OncoPanel_AMC_cellemics/150410_Celemics_panel_exon_analysis_target.interval_list
+full_interval=/home/D131748/Reference/Target_intervals/OncoPanel_AMC_cellemics/OncoPanel_AMC_target_150410.interval_list
+intron_interval=/home/D131748/Reference/Target_intervals/OncoPanel_AMC_cellemics/150410_Celemics_panel_intron_analysis_target.interval_list
